@@ -1,5 +1,9 @@
 function balancingParentheses(string) {
-  // type your code here
+  let openings = 0;
+  let closings = 0;
+  for (let i in string) {
+    i == '(' ? openings++:closings++;
+  }
 }
 
 if (require.main === module) {
